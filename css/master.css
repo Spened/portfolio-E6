@@ -1,0 +1,61 @@
+/* var color */
+
+:root{
+  --main-color : #399fff;
+  --second-color : #3a85ff;
+  --font-color : white;
+}
+
+
+/*    NAVBAR   */
+
+/* Enlever les angles des bordures du haut */
+.navbar{
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: var(--font-color);
+}
+
+.navbar-inverse{
+  background-color: var(--main-color);
+  border-color: var(--main-color);
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  background-color: var(--second-color);
+}
+
+/* Mettre une marge sur la chaughe pour les fulls screen */
+@media (min-width: 768px){
+  .navbar-nav{
+    margin-left: 5%;
+  }
+}
+
+/*  FIN DE NAVBAR  */
+
+/*   CONTAINER   */
+
+@media (min-width: 1920px){
+  .container{
+    width: 1500px;
+  }
+}
+
+@media (min-width: 1600px){
+  .container{
+    width: 1400px;
+  }
+}
+
+/*  FIN DE CONTAINER  */
+
+/* PRESENTATION */
+
+.presentation > .col-sm-12 > .h2{
+  font-weight: bold;
+
+}
