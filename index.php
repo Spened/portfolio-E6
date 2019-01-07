@@ -10,10 +10,10 @@
     <nav class="navbar navbar-inverse">
       <div class="container-fluid">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#presentation">Présentation</a></li>
-          <li><a href="#parcours">Parcours</a></li>
-          <li><a href="#projet">Projet</a></li>
-          <li><a href="#techno">Veille Technologique</a></li>
+          <li class="active"><a href="#presentation"><span class="	glyphicon glyphicon-blackboard"></span> Présentation</a></li>
+          <li><a href="#parcours"><span class="glyphicon glyphicon-road"></span> Parcours</a></li>
+          <li><a href="#projet"><span class="glyphicon glyphicon-briefcase"></span> Projets</a></li>
+          <li><a href="#techno"><span class="glyphicon glyphicon-eye-open"></span> Veille Technologique</a></li>
         </ul>
       </div>
     </nav>
@@ -35,19 +35,21 @@
         </div>
       </div>
       <hr>
-      <div id="parcours" class="row">
+      <div id="parcours" class="row parcours">
         <div class="col-sm-12 text-center">
           <h2>Parcours</h2>
           <h4>Scolaire</h4>
         </div>
         <div class="col-sm-4"></div>
-        <div class="col-sm-2 text-center">
+        <div class="col-sm-1 text-center">
           <p></p>
           <img class="img-circle" src="img/elec.png" alt="lycée" height="75" width="75">
           <p>BAC PRO ELEEC</p>
-          <p>MENTION BIEN</p>
         </div>
-        <div class="col-sm-2 text-center">
+        <div class="col-sm-2">
+          <img src="img/hexa-parcours.png" alt="" height="125" width="200">
+        </div>
+        <div class="col-sm-1 text-center">
           <img class="img-circle" src="img/pc.jpg" alt="bts" height="75" width="75">
           <p>BTS SIO [SLAM]</p>
         </div>
